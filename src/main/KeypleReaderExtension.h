@@ -1,0 +1,36 @@
+/**************************************************************************************************
+ * Copyright (c) 2021 Calypso Networks Association                                                *
+ * https://www.calypsonet-asso.org/                                                               *
+ *                                                                                                *
+ * See the NOTICE file(s) distributed with this work for additional information regarding         *
+ * copyright ownership.                                                                           *
+ *                                                                                                *
+ * This program and the accompanying materials are made available under the terms of the Eclipse  *
+ * Public License 2.0 which is available at http://www.eclipse.org/legal/epl-2.0                  *
+ *                                                                                                *
+ * SPDX-License-Identifier: EPL-2.0                                                               *
+ **************************************************************************************************/
+
+#pragma once
+
+/* Commons */
+#include "KeypleCommonsApiExport.h"
+
+namespace keyple {
+namespace core {
+namespace common {
+
+/**
+ * Generic type for a Keyple reader extension.
+ *
+ * <p>A reader extension brings the specific attributes of a reader.
+ *
+ * <p>Any Keyple plugin must provide readers implementing this interface.
+ *
+ * @since 2.0
+ */
+class KEYPLECOMMONSAPI_EXPORT KeypleReaderExtension {};
+
+}
+}
+}
