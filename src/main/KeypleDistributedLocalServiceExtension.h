@@ -18,13 +18,13 @@ namespace core {
 namespace common {
 
 /**
- * Generic type for a factory of Keyple plugin extension.
+ * Generic type for a Keyple distributed local service extension.
  *
- * <p>Any Keyple plugin must provide a factory that implements this interface.
+ * <p>Any Keyple distributed local extension must provide a factory that implements this interface.
  *
  * @since 2.0
  */
-class KeyplePluginExtensionFactory {};
+class KeypleDistributedLocalServiceExtension {};
 
 }
 }

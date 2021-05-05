@@ -13,12 +13,20 @@
 
 #pragma once
 
-#if defined(WIN32)
-#if defined(KEYPLECOMMONSAPI_EXPORT)
-#define KEYPLECOMMONSAPI_EXPORT __declspec(dllexport)
-#else
-#define KEYPLECOMMONSAPI_EXPORT __declspec(dllimport)
-#endif
-#else
-#define KEYPLECOMMONSAPI_EXPORT
-#endif
+namespace keyple {
+namespace core {
+namespace common {
+
+/**
+ * Generic type for a POJO used to carry the response of a card selection request.
+ *
+ * <p>A card selection response is the result of presenting a card to an observable reader in a
+ * selection scenario.
+ *
+ * @since 2.0
+ */
+class KeypleCardSelectionResponse {};
+
+}
+}
+}

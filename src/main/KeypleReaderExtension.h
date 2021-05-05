@@ -13,9 +13,6 @@
 
 #pragma once
 
-/* Commons */
-#include "KeypleCommonsApiExport.h"
-
 namespace keyple {
 namespace core {
 namespace common {
@@ -29,7 +26,7 @@ namespace common {
  *
  * @since 2.0
  */
-class KEYPLECOMMONSAPI_EXPORT KeypleReaderExtension {};
+class KeypleReaderExtension {};
 
 }
 }

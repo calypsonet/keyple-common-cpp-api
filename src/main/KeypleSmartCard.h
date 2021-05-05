@@ -18,13 +18,11 @@ namespace core {
 namespace common {
 
 /**
- * Generic type for a factory of Keyple plugin extension.
- *
- * <p>Any Keyple plugin must provide a factory that implements this interface.
+ * Generic type for a POJO used to carry the known data content of a smart card.
  *
  * @since 2.0
  */
-class KeyplePluginExtensionFactory {};
+class KeypleSmartCard {};
 
 }
 }

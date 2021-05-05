@@ -18,13 +18,14 @@ namespace core {
 namespace common {
 
 /**
- * Generic type for a factory of Keyple plugin extension.
+ * Generic type for a card resource profile extension.
  *
- * <p>Any Keyple plugin must provide a factory that implements this interface.
+ * <p>A Keyple card resource extension is used by the allocation process of the card resource
+ * service to identify and prepare a card resource.
  *
  * @since 2.0
  */
-class KeyplePluginExtensionFactory {};
+class KeypleCardResourceProfileExtension {};
 
 }
 }

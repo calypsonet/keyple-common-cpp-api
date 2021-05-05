@@ -18,13 +18,13 @@ namespace core {
 namespace common {
 
 /**
- * Generic type for a factory of Keyple plugin extension.
+ * Generic type for a POJO carrying card selection settings.
  *
- * <p>Any Keyple plugin must provide a factory that implements this interface.
+ * <p>A Keyple card selector defines the settings of a card selection case.
  *
  * @since 2.0
  */
-class KeyplePluginExtensionFactory {};
+class KeypleCardSelector {};
 
 }
 }
