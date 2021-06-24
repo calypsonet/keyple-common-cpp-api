@@ -11,19 +11,22 @@
  * SPDX-License-Identifier: EPL-2.0                                                               *
  **************************************************************************************************/
 
-#pragma once
+#include "gtest/gtest.h"
 
-namespace keyple {
-namespace core {
-namespace common {
+/* Util */
+#include "Logger.h"
 
-/**
- * Generic type for a Keyple plugin event (reader connection/disconnection).
- *
- * @since 2.0
- */
-class KeyplePluginEvent {};
+using namespace testing;
 
-}
-}
+using namespace keyple::core::util::cpp;
+
+int main(int argc, char **argv)
+{
+    /* Initialize GTest */
+    ::testing::InitGoogleTest(&argc, argv);
+
+    Logger::setLoggerLevel(Logger::Level::logError);
+
+    /* Run */
+    return RUN_ALL_TESTS();
 }

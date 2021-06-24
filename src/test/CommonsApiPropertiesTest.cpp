@@ -11,19 +11,22 @@
  * SPDX-License-Identifier: EPL-2.0                                                               *
  **************************************************************************************************/
 
-#pragma once
+#include <regex>
 
-namespace keyple {
-namespace core {
-namespace common {
+#include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
-/**
- * Generic type for a Keyple reader event (card insertion/removal/...).
- *
- * @since 2.0
- */
-class KeypleReaderEvent {};
+/* Calypsonet Terminal Reader */
+#include "CommonsApiProperties.h"
 
-}
-}
+using namespace testing;
+
+using namespace keyple::core::commons;
+
+TEST(CommonsApiPropertiesTest, versionIsCorrectlyWritten)
+{
+    const std::string& apiVersion = CommonsApiProperties::VERSION;
+    const std::regex r("\\d+\\.\\d+");
+
+    ASSERT_TRUE(std::regex_match(apiVersion, r));
 }
