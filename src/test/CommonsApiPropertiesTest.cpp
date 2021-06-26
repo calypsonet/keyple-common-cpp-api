@@ -16,7 +16,7 @@
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 
-/* Calypsonet Terminal Reader */
+/* Keyple Common */
 #include "CommonsApiProperties.h"
 
 using namespace testing;
