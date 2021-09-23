@@ -23,7 +23,13 @@ namespace commons {
  *
  * @since 2.0
  */
-class KeyplePluginExtensionFactory {};
+class KeyplePluginExtensionFactory {
+public:
+    /**
+     * /!\ C++: added virtual destructor to make class polymorphic
+     */
+    virtual ~KeyplePluginExtensionFactory() = default;
+};
 
 }
 }
