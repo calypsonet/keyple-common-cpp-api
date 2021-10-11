@@ -25,7 +25,13 @@ namespace commons {
  *
  * @since 2.0
  */
-class KeyplePluginExtension {};
+class KeyplePluginExtension {
+public:
+    /**
+     * 
+     */
+    virtual ~KeyplePluginExtension() = default;
+};
 
 }
 }

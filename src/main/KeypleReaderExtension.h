@@ -25,7 +25,13 @@ namespace commons {
  *
  * @since 2.0
  */
-class KeypleReaderExtension {};
+class KeypleReaderExtension {
+public:
+    /**
+     * 
+     */
+    virtual ~KeypleReaderExtension() = default;
+};
 
 }
 }
