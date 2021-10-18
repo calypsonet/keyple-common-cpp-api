@@ -21,7 +21,7 @@ namespace common {
  *
  * <p>Any Keyple distributed local extension must provide a factory that implements this interface.
  *
- * @since 2.0
+ * @since 2.0.0
  */
 class KeypleDistributedLocalServiceExtension {};
 

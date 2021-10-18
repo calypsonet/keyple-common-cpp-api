@@ -19,7 +19,7 @@ namespace common {
 /**
  * Generic type for a POJO used to carry the known data content of a smart card.
  *
- * @since 2.0
+ * @since 2.0.0
  */
 class KeypleSmartCard {};
 

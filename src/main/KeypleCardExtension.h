@@ -21,7 +21,7 @@ namespace common {
 /**
  * Generic type for a Keyple card extension.
  *
- * @since 2.0
+ * @since 2.0.0
  */
 class KeypleCardExtension {
 public:
@@ -29,7 +29,7 @@ public:
      * Gets the Reader API version used at compile time
      *
      * @return A not empty String.
-     * @since 2.0
+     * @since 2.0.0
      */
     virtual const std::string& getReaderApiVersion() const = 0;
 
@@ -37,7 +37,7 @@ public:
      * Gets the Card API version used at compile time
      *
      * @return A not empty String.
-     * @since 2.0
+     * @since 2.0.0
      */
     virtual const std::string& getCardApiVersion() const = 0;
 
@@ -45,7 +45,7 @@ public:
      * Gets the Common API version used at compile time
      *
      * @return A not empty String.
-     * @since 2.0
+     * @since 2.0.0
      */
     virtual const std::string& getCommonApiVersion() const = 0;
  };

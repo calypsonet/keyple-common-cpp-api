@@ -23,7 +23,7 @@ namespace common {
  *
  * <p>Any Keyple plugin must provide a factory that returns plugins implementing this interface.
  *
- * @since 2.0
+ * @since 2.0.0
  */
 class KeyplePluginExtension {
 public:

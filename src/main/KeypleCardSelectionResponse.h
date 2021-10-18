@@ -22,7 +22,7 @@ namespace common {
  * <p>A card selection response is the result of presenting a card to an observable reader in a
  * selection scenario.
  *
- * @since 2.0
+ * @since 2.0.0
  */
 class KeypleCardSelectionResponse {};
 

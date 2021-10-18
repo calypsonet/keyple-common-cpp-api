@@ -22,7 +22,7 @@ namespace common {
  * <p>A Keyple card resource extension is used by the allocation process of the card resource
  * service to identify and prepare a card resource.
  *
- * @since 2.0
+ * @since 2.0.0
  */
 class KeypleCardResourceProfileExtension {};
 

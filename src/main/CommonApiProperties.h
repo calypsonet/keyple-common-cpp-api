@@ -21,14 +21,14 @@ namespace common {
 /**
  * API properties
  *
- * @since 2.0
+ * @since 2.0.0
  */
 class CommonApiProperties final {
 public:
     /**
      * API version: {@value}
      *
-     * @since 2.0
+     * @since 2.0.0
      */
     static const std::string VERSION;
 

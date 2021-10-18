@@ -21,7 +21,7 @@ namespace common {
  *
  * <p>A Keyple card selector defines the settings of a card selection case.
  *
- * @since 2.0
+ * @since 2.0.0
  */
 class KeypleCardSelector {};
 
