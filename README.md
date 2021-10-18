@@ -8,9 +8,9 @@ The **Keyple Common C++ API** contains the interfaces of the objects that are in
 
 The full documentation, including the **user guide**, **download information** and **contribution guide**, is available on the Keyple website [keyple.org](https://keyple.org).
 
-## Javadoc
+## API documentation
 
-The doxygen is available online: [eclipse.github.io/keyple-common-cpp-api/](https://eclipse.github.io/keyple-common-cpp-api/)
+API documentation & class diagram is available online: [eclipse.github.io/keyple-common-cpp-api](https://eclipse.github.io/keyple-common-cpp-api)
 
 
 ## About the source code
