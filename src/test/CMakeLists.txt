@@ -48,7 +48,7 @@ ADD_EXECUTABLE(
     ${EXECTUABLE_NAME}
 
     ${CMAKE_CURRENT_SOURCE_DIR}/MainTest.cpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/CommonsApiPropertiesTest.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/CommonApiPropertiesTest.cpp
 )
 
 FIND_LIBRARY(UTIL ${KEYPLE_UTIL_LIB} HINTS ${KEYPLE_UTIL_DIR}/build/bin)

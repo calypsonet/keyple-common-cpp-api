@@ -14,7 +14,7 @@
 
 namespace keyple {
 namespace core {
-namespace commons {
+namespace common {
 
 /**
  * Generic type for a POJO used to carry the response of a card selection request.

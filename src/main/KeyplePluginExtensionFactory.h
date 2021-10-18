@@ -14,7 +14,7 @@
 
 namespace keyple {
 namespace core {
-namespace commons {
+namespace common {
 
 /**
  * Generic type for a factory of Keyple plugin extension.

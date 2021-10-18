@@ -1,5 +1,6 @@
 /**************************************************************************************************
- * Copyright (c) 2021 Calypso Networks Association https://calypsonet.org/                        *
+ * Copyright (c) 2021 Calypso Networks Association                                                *
+ * https://www.calypsonet-asso.org/                                                               *
  *                                                                                                *
  * See the NOTICE file(s) distributed with this work for additional information regarding         *
  * copyright ownership.                                                                           *
@@ -10,37 +11,22 @@
  * SPDX-License-Identifier: EPL-2.0                                                               *
  **************************************************************************************************/
 
-#pragma once
+#include <regex>
 
-#include <string>
+#include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
-namespace keyple {
-namespace core {
-namespace commons {
+/* Keyple Common */
+#include "CommonApiProperties.h"
 
-/**
- * API properties
- *
- * @since 2.0
- */
-class CommonsApiProperties final {
-public:
-    /**
-     * API version: {@value}
-     *
-     * @since 2.0
-     */
-    static const std::string VERSION;
+using namespace testing;
 
-private:
-    /**
-     * Private constructor
-     */
-    CommonsApiProperties() {}
-};
+using namespace keyple::core::common;
 
-const std::string CommonsApiProperties::VERSION = "2.0";
+TEST(CommonApiPropertiesTest, versionIsCorrectlyWritten)
+{
+    const std::string& apiVersion = CommonApiProperties::VERSION;
+    const std::regex r("\\d+\\.\\d+");
 
-}
-}
+    ASSERT_TRUE(std::regex_match(apiVersion, r));
 }

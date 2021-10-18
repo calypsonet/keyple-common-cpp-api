@@ -14,7 +14,7 @@
 
 namespace keyple {
 namespace core {
-namespace commons {
+namespace common {
 
 /**
  * Generic type for a card resource profile extension.
