@@ -23,23 +23,24 @@ namespace common {
  *
  * @since 2.0.0
  */
-class CommonApiProperties final {
-public:
-    /**
-     * API version: {@value}
-     *
-     * @since 2.0.0
-     */
-    static const std::string VERSION;
+// class CommonApiProperties final {
+// public:
+//     /**
+//      * API version: {@value}
+//      *
+//      * @since 2.0.0
+//      */
+//     static const std::string VERSION;
 
-private:
-    /**
-     * Private constructor
-     */
-    CommonApiProperties() {}
-};
+// private:
+//     /**
+//      * Private constructor
+//      */
+//     CommonApiProperties() {}
+// };
 
-const std::string CommonApiProperties::VERSION = "2.0";
+// const std::string CommonApiProperties::VERSION = "2.0";
+static const std::string CommonApiProperties_VERSION = "2.0";
 
 }
 }
